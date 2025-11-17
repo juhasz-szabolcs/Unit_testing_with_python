@@ -19,6 +19,12 @@ def test_multiply():
     assert multiply(-2,-3) == 6
     assert multiply(-2,0) == 0
 
+def test_divide():
+    assert divide(6,2) == 3
+    assert divide(-6,2) == -3
+    assert divide(-6,-2) == 3
+    assert divide(6,0) == "Error: Division by zeroe"
+
 
 
 
