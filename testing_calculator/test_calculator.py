@@ -23,7 +23,7 @@ def test_divide():
     assert divide(6,2) == 3
     assert divide(-6,2) == -3
     assert divide(-6,-2) == 3
-    assert divide(6,0) == "Error: Division by zeroe"
+    assert divide(6,0) == "Error: Division by zero"
 
 
 
